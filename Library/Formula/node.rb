@@ -1,13 +1,13 @@
 require 'formula'
 
 class Node <Formula
-  url 'http://nodejs.org/dist/node-v0.1.98.tar.gz'
+  url 'http://nodejs.org/dist/node-v0.1.100.tar.gz'
   head 'git://github.com/ry/node.git'
   homepage 'http://nodejs.org/'
-  md5 'd8a75cb5c18ce20e0206ced95a8c1544'
+  md5 'f8567739b71d05b8edcae1916d7e80cb'
 
   aka 'node.js'
-  
+
   def skip_clean? path
     # TODO: at some point someone should tweak this so it only skips clean
     # for the bits that break the build otherwise
